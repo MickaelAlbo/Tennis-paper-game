@@ -6,7 +6,7 @@ Both players start with the same initial number (e.g. 50 points). In each draw, 
 
 ## How to play the game?
 To play the game, you should run in the terminal the following command: ``./tennis_paper.sh`` and then each player plays in his turn.
-(Each player input is masking in the program by the flag ``-s`` so that neither player can know what the other has played.
+(Each player input is masking in the program by the flag ``-s`` so that neither player can know what the other has played.)
 
 Here is some examples of a game by 2 players:  
 ![image](https://user-images.githubusercontent.com/71727260/209853916-dec401f9-54d1-4626-927c-d181cad3e6b1.png) <img src="https://user-images.githubusercontent.com/71727260/209854158-8a680c9d-dab1-48cc-83c8-592ea4f5f678.png" width="207">
