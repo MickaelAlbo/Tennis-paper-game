@@ -1,11 +1,29 @@
-# Tennis (paper game)  
-Tennis is an (abstract) strategic pencil and paper game for two players. The game field consists of 4 fields and a centre line. These are called (-2,-1,0,1,2), with negative numbers belonging to player 1, positive to player 2. At start, the ball is at the centre line (0).
+# Paper Game
+Tennis is an (abstract) strategic pencil and paper game for two players. The game field consists of 4 fields and a centre line. These are called (-2,-1,0,1,2), with negative numbers belonging to player 1, positive to player 2. At start, the ball is at the centre line (0).  
 
-Both players start with the same initial number (e.g. 50 points). In each draw, both players choose a number, and the ball is moved towards the player with the smallest number. The number chosen reduces the points for the next draws. The aim of the game is to move the ball beyond the second field of the opponent.
+Both players start with the same initial number (e.g. 50 points). In each draw, both players choose a number, and the ball is moved towards the player with the smallest number. The number chosen reduces the points for the next draws. The aim of the game is to move the ball beyond the second field of the opponent.  
 
+Here is a command-line implementation of the paper game (also known as "Tennis").
 
-## How to play the game?
-To play the game, you should run in the terminal the following command: ``./tennis_paper.sh`` and then each player plays in his turn.
+## Demo
+
+You can try out the paper game by running the `tennis_paper.sh` script in your terminal.
+
+## Requirements
+
+- Bash shell (should be installed by default on most systems)
+
+## How to play
+
+1. Clone the repository to your local machine
+2. Open a terminal and navigate to the repository directory
+3. Run the `tennis_paper.sh` script using the following command:
+
+```bash
+bash tennis_paper.sh
+```
+
+You can also simply run the following command: ``./tennis_paper.sh`` and then each player plays in his turn.
 (Each player input is masking in the program by the flag ``-s`` so that neither player can know what the other has played.)
 
 Here are some examples of a game by 2 players:  
